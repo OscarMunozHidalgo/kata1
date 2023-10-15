@@ -34,4 +34,8 @@ public class Worker {
     public void setPayment(int payment) {
         this.payment = payment;
     }
+
+    public int totalPayment(){
+        return this.hours * this.payment;
+    }
 }
